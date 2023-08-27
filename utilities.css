@@ -1,0 +1,36 @@
+.text-center{
+ 
+text-align: center;
+
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-flex{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.double-button{
+    height: 50px;
+    align-self: flex-start;
+    width: 100px;
+}
+
+.last-row{    
+    width: 210px;
+    overflow: hidden;
+    height: 120px;
+    flex-wrap: wrap;
+}

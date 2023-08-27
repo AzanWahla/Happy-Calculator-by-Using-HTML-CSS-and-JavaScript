@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.main{
+    background-color: blue;
+        /* margin:20px 40vw; */
+        width: 240px;
+        height: 410px;
+        border-radius: 10px;
+        border: 2px solid beige;
+}
+
+.button{
+    margin: 5px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px
+}
+
+input{
+    padding: 25px;
+    margin: 12px;
+    border-radius: 10px;
+}
+
+.row{
+    display: flex;
+}
+
+#btn{
+    background-color: rgb(89, 114, 184);
+    height: 35px;
+    width: 115px;
+    border-radius: 30px;
+    color: bisque
+}
+
+.theme-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20vw;
+}
